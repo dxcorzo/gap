@@ -1,0 +1,15 @@
+﻿<form ng-controller="crearController" ng-submit="guardar()">
+    
+    <div class="form-group">
+        <label class="control-label">Nombre</label>
+        <input type="text" class="form-control" placeholder="Cual es el nombre?" ng-model="nombre" required/>
+    </div>
+    
+    <div class="form-group">
+        <label class="control-label">Dirección</label>
+        <input type="text" class="form-control" placeholder="Cual es la dirección?" ng-model="direccion"/>
+    </div>
+
+    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+    <button type="submit" class="btn btn-success pull-right">Guardar</button>
+</form>

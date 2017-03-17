@@ -1,0 +1,39 @@
+﻿<form ng-controller="crearController" ng-submit="guardarArticulo()">
+    <div class="form-group">
+        <label class="control-label">Tienda</label>
+        <select class="form-control" ng-options="t.name for t in tiendas track by t.id" ng-model="tienda"></select>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" placeholder="Cual es el nombre del zapato?" ng-model="nombre" required/>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label">Descripción</label>
+        <textarea class="form-control" id="descripcion" placeholder="Escribe los detalles..." ng-model="descripcion"></textarea>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label">Precio</label>
+        <div class="input-group">
+            <span class="input-group-addon">$</span>
+            <input type="number" class="form-control" placeholder="Cuanto cuesta?" id="precio" step="0.01" ng-model="precio" required>
+            <span class="input-group-addon">.00</span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label">Total En Vitrina</label>
+        <input type="number" class="form-control" placeholder="Cuantos items hay en vitrina?" id="totalVitrina" ng-model="totalVitrina" required>
+    </div>
+
+
+    <div class="form-group">
+        <label class="control-label">Total En Bodega</label>
+        <input type="number" class="form-control" placeholder="Cuantos items hay en bodega?" id="totalBodega" ng-model="totalBodega" required>
+    </div>
+    
+    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+    <button type="submit" class="btn btn-success pull-right">Guardar</button>
+</form>

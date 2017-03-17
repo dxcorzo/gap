@@ -1,0 +1,14 @@
+C:\Users\SCI\Documents\Projects\GAP\Solucion\PruebaEntradaGAP\PruebaEntradaGAP.Datos\bin\Release\PruebaEntradaGAP.Datos.dll.config
+C:\Users\SCI\Documents\Projects\GAP\Solucion\PruebaEntradaGAP\PruebaEntradaGAP.Datos\bin\Release\PruebaEntradaGAP.Datos.dll
+C:\Users\SCI\Documents\Projects\GAP\Solucion\PruebaEntradaGAP\PruebaEntradaGAP.Datos\bin\Release\PruebaEntradaGAP.Datos.pdb
+C:\Users\SCI\Documents\Projects\GAP\Solucion\PruebaEntradaGAP\PruebaEntradaGAP.Datos\bin\Release\EntityFramework.dll
+C:\Users\SCI\Documents\Projects\GAP\Solucion\PruebaEntradaGAP\PruebaEntradaGAP.Datos\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\SCI\Documents\Projects\GAP\Solucion\PruebaEntradaGAP\PruebaEntradaGAP.Datos\bin\Release\PruebaEntradaGAP.Dominio.dll
+C:\Users\SCI\Documents\Projects\GAP\Solucion\PruebaEntradaGAP\PruebaEntradaGAP.Datos\bin\Release\Newtonsoft.Json.dll
+C:\Users\SCI\Documents\Projects\GAP\Solucion\PruebaEntradaGAP\PruebaEntradaGAP.Datos\bin\Release\PruebaEntradaGAP.Dominio.pdb
+C:\Users\SCI\Documents\Projects\GAP\Solucion\PruebaEntradaGAP\PruebaEntradaGAP.Datos\bin\Release\EntityFramework.xml
+C:\Users\SCI\Documents\Projects\GAP\Solucion\PruebaEntradaGAP\PruebaEntradaGAP.Datos\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\SCI\Documents\Projects\GAP\Solucion\PruebaEntradaGAP\PruebaEntradaGAP.Datos\bin\Release\Newtonsoft.Json.xml
+C:\Users\SCI\Documents\Projects\GAP\Solucion\PruebaEntradaGAP\PruebaEntradaGAP.Datos\obj\Release\PruebaEntradaGAP.Datos.csprojResolveAssemblyReference.cache
+C:\Users\SCI\Documents\Projects\GAP\Solucion\PruebaEntradaGAP\PruebaEntradaGAP.Datos\obj\Release\PruebaEntradaGAP.Datos.dll
+C:\Users\SCI\Documents\Projects\GAP\Solucion\PruebaEntradaGAP\PruebaEntradaGAP.Datos\obj\Release\PruebaEntradaGAP.Datos.pdb

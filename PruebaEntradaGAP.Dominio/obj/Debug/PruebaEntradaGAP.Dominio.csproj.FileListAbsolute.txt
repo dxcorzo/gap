@@ -1,0 +1,7 @@
+C:\Users\SCI\Documents\Projects\GAP\Solucion\PruebaEntradaGAP\PruebaEntradaGAP.Dominio\bin\Debug\PruebaEntradaGAP.Dominio.dll
+C:\Users\SCI\Documents\Projects\GAP\Solucion\PruebaEntradaGAP\PruebaEntradaGAP.Dominio\bin\Debug\PruebaEntradaGAP.Dominio.pdb
+C:\Users\SCI\Documents\Projects\GAP\Solucion\PruebaEntradaGAP\PruebaEntradaGAP.Dominio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\SCI\Documents\Projects\GAP\Solucion\PruebaEntradaGAP\PruebaEntradaGAP.Dominio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\SCI\Documents\Projects\GAP\Solucion\PruebaEntradaGAP\PruebaEntradaGAP.Dominio\obj\Debug\PruebaEntradaGAP.Dominio.dll
+C:\Users\SCI\Documents\Projects\GAP\Solucion\PruebaEntradaGAP\PruebaEntradaGAP.Dominio\obj\Debug\PruebaEntradaGAP.Dominio.pdb
+C:\Users\SCI\Documents\Projects\GAP\Solucion\PruebaEntradaGAP\PruebaEntradaGAP.Dominio\obj\Debug\PruebaEntradaGAP.Dominio.csprojResolveAssemblyReference.cache

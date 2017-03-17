@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Title = "Artículos";
+}
+
+<h1>@ViewBag.Title</h1>
+
+<div ng-controller="indexController">
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <button class="btn btn-success" data-toggle="modal" data-target="#crear-modal"><span class="glyphicon glyphicon-plus"></span> Nuevo</button>
+        </div>
+        <div class="panel-body">
+            <div class="table-responsive">
+                <table id="tablaInfo" class="table table-bordered"></table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="crear-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content panel-primary">
+            <div class="modal-header panel-heading">
+                <h4 class="modal-title">Crear Artículo</h4>
+            </div>
+            <div class="modal-body">
+                @Html.Partial("_crear")
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts
+{
+    <link href="~/Content/DataTables/css/dataTables.bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/DataTables/jquery.dataTables.min.js"></script>
+    <script src="~/Scripts/DataTables/dataTables.bootstrap.min.js"></script>
+    <script src="~/Scripts/ng/articulos/indexController.js"></script>
+    <script src="~/Scripts/ng/articulos/crearController.js"></script>
+}

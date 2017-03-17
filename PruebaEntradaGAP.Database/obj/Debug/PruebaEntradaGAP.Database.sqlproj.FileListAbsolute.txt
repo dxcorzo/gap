@@ -1,0 +1,5 @@
+C:\Users\SCI\Documents\Projects\GAP\Solucion\PruebaEntradaGAP\PruebaEntradaGAP.Database\bin\Debug\PruebaEntradaGAP.Database.dacpac
+C:\Users\SCI\Documents\Projects\GAP\Solucion\PruebaEntradaGAP\PruebaEntradaGAP.Database\bin\Debug\PruebaEntradaGAP.Database.dll
+C:\Users\SCI\Documents\Projects\GAP\Solucion\PruebaEntradaGAP\PruebaEntradaGAP.Database\bin\Debug\PruebaEntradaGAP.Database.pdb
+C:\Users\SCI\Documents\Projects\GAP\Solucion\PruebaEntradaGAP\PruebaEntradaGAP.Database\obj\Debug\PruebaEntradaGAP.Database.dll
+C:\Users\SCI\Documents\Projects\GAP\Solucion\PruebaEntradaGAP\PruebaEntradaGAP.Database\obj\Debug\PruebaEntradaGAP.Database.pdb

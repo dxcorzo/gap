@@ -1,0 +1,86 @@
+﻿@{
+    ViewBag.Title = "Información del proyecto";
+}
+
+<h1>@ViewBag.Title <small>que conceptos apliqué al proyecto?</small></h1>
+
+<p>Me gustó mucho realizar este proyecto. En la solución plasmé algunos de los conceptos que conozco. Podría parecer algo exagerada la arquitectura implementada, 
+    efectivamente la prueba pudo haber sido resuelta de modo mucho más simple y puede mejorarse de mil maneras, sin embargo lo hice como un pequeño showcase de lo que soy capaz de hacer :)</p>
+
+<h2 class="text-success">Arquitectura</h2>
+
+<p>Variación del clásico modelo 3 capas. A continuación doy una descripcion corta de cada una de las carpetas de la solución
+    <ul>
+        <li>
+            <h3>Front</h3>
+            Contiene los elementos necesarios con los cuales un front-end developer puede operar (CSS, JS, Vistas, Imágenes)
+        </li>
+        <li>
+            <h3>Back</h3>
+            3 proyectos con los cuales el equipo de back-end expone la data por medio de servicios, resuelve dependencias, accede al repositorio, controla excepciones.
+        </li>
+        <li>
+            <h3>Data</h3>
+            El encargado del diseño de la base de datos puede modelar todo su esquema en los dos proyectos de la carpeta sin tener que interesarle como va a ser consumida la info.
+        </li>
+    </ul>
+</p>
+
+<h2 class="text-success">SOLID</h2>
+<p>
+    Es posible ver algunos de los items que compone el concepto <strong>SOLID</strong> en cada una de las capas que componen la solución
+    
+    <ul>
+        <li>
+            <h3>Segregación de Interfaces</h3>
+            En <em>Dominio.Interfaces</em> es posible ver ese concepto jutno con patrones de diseño (Repository), manejo de genéricos
+        </li>
+        <li>
+            <h3>Responsabilidad Única</h3>
+            En <em>Core</em> es claro el concepto de implementación de contratos, alta cohesión y bajo acoplamiento
+        </li>
+        <li>
+            <h3>Inversión de Dependencias</h3>
+            En <em>Web</em> implementé las operaciones de <em>Core</em> en el API por medio de inyección de dependencias usando Unity
+        </li>
+    </ul>
+
+</p>
+
+<h2 class="text-success">Gestión de Bundles</h2>
+<p>Por medio de <strong>NuGet</strong> centralizé la integración de librerias externas al proyecto</p>
+
+<h2 class="text-success">Dominio de WebApi</h2>
+<p>En <em>Web</em> definí un ApiController para exponer las operaciones del proyecto. Es posible evidenciar:
+    <ul>
+        <li>Manejo de filtros</li>
+        <li>Enrutamiento</li>
+        <li>Inyección de dependencias</li>
+        <li>Exposición de operaciones síncronas y asíncronas</li>
+        <li>Configuración de serialización (respuesta como JSON y variables estilo camelCase)</li>
+    </ul>
+</p>
+
+<h2 class="text-success">Patrón MVC y MVVM</h2>
+<p>
+    En <em>UI</em> es posible ver una implementación del patrón MVVM usando AngularJS.
+</p>
+
+<h2 class="text-success">Responsive con Bootstrap y Razor</h2>
+<p>
+    Todo el sitio es responsive, usé las clases ofrecidas por este framework para crear una interfaz sencilla pero amigable. Con Razor usé páginas normales enlazadas a
+    un layout y vistas parciales.
+</p>
+
+<h2 class="text-success">Uso de AngularJS, jQuery</h2>
+<p>
+    Las listas de información y el consumo a servicios las realizo por medio de estas dos librerias. En <em>/scripts/ng</em> se encuentran los controladores y el factory
+    usado para gestionar la administración solicitada en el documento de prueba para tiendas y artículos
+</p>
+
+
+<h2 class="text-success">Manejo de Entity Framework</h2>
+<p>
+    En <em>Data</em> y <em>Database</em> muestro el manejo sobre el ORM, conozco como crear todo el contexto de datos teniendo en cuenta llaves foráneas, campos de 
+    distinto nombre, expresiones lambda. La propuesta está hecha usando CodeFirst.
+</p>

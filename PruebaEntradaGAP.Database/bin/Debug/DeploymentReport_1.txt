@@ -1,0 +1,21 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Articles]
+       [dbo].[Stores]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Table rebuild
+       [dbo].[Articles] (Table)
+       [dbo].[Stores] (Table)
+
+** Supporting actions
+     Drop
+       [dbo].[FK_Articles_ToStores] (Foreign Key)
+     Create
+       [dbo].[FK_Articles_ToStores] (Foreign Key)

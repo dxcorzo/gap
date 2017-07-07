@@ -1,0 +1,10 @@
+*.cache
+/.vs
+*/obj
+*DesignTimeResolveAssemblyReferencesInput.cache
+DesignTimeResolveAssemblyReferencesInput.cache
+/PruebaEntradaGAP.Core/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/PruebaEntradaGAP.Datos/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/PruebaEntradaGAP.Dominio/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/PruebaEntradaGAP.UI/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/PruebaEntradaGAP.Web/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
